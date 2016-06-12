@@ -21,6 +21,6 @@ defmodule ExrmUmb.Mixfile do
   # Dependencies listed here are available only for this project
   # and cannot be accessed from applications inside the apps folder
   defp deps do
-    []
+    [{:exrm, "~> 1.0.5"}]
   end
 end
